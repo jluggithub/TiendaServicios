@@ -83,7 +83,7 @@ namespace TiendaServicios.Api.Libro.Tests
         public async Task GetLibros()  //async void is deprecated
         {
             // si queremos debuguear el método, ponemos: 
-            System.Diagnostics.Debugger.Launch();  // y seleccionamos el método getLibros, a pelo, botón derecho  ->  run test
+            System.Diagnostics.Debugger.Launch();  // y seleccionamos el método getLibros, a pelo, botón derecho -> run test
 
 
             // 1.- Emular la instancia de EF Core ContextoLibreria (parámetro constructor de la clase Manejador)
