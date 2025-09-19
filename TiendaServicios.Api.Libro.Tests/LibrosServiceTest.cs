@@ -82,6 +82,8 @@ namespace TiendaServicios.Api.Libro.Tests
         [Fact]
         public async Task GetLibros()  //async void is deprecated
         {
+            // añado este comentario para probar commit git
+
             // si queremos debuguear el método, ponemos: 
             System.Diagnostics.Debugger.Launch();  // y seleccionamos el método getLibros, a pelo, botón derecho -> run test
 
